@@ -7,7 +7,7 @@
 (def required-clojure-version "1.5.1")
 
 (def cljsbuild-dependencies
-  [['cljsbuild cljsbuild-version]
+  [['org.clojars.jlangr/cljsbuild cljsbuild-version]
    ['org.clojure/clojure required-clojure-version]])
 
 (defn- numeric-version [v]
